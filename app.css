@@ -1,0 +1,45 @@
+html, body {
+    background-color: #fff;
+    color: #bababa;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    height: 100%;
+}
+
+.welcome-page {
+    background-color: #0A1B0A;
+    box-sizing: border-box;
+    border: 10px solid #75fe04;
+}
+
+.centered {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 84px;
+    font-family: 'Share Tech Mono', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 9ch;
+  	border-right: .1em solid;
+    animation: type 1.5s steps(9, end),
+               blink-caret .5s step-end infinite alternate;
+    text-align: left;
+}
+
+@keyframes type {
+    from { width: 0; }
+}
+
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+}
