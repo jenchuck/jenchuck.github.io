@@ -1,7 +1,89 @@
+html, body, .container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arvo', serif;
+    background-color: rgba(236, 240, 241,1.0);
+}
+
+.title-box {
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #splash-name {
-  font-family: 'Kumar One Outline', cursive;
+  font-family: 'Kumar One Outline', sans-serif;;
+  font-size: 6.5vmax;
+  margin-bottom: 0;
 }
 
 #splash-title {
-  margin-left: 35%;
+  font-size: 3.5vmin;
+  margin-top: 0;
+  margin-left: 3.5vw;
+}
+
+.nav-button {
+  display: flex;
+}
+
+.nav-button * {
+  font-size: 3.5vmax;
+}
+
+.right-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fun-stuff {
+  border: 10px solid rgb(231, 76, 60);
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.fun-stuff:hover {
+  border: 10px solid rgba(231, 76, 60, 0.7);
+}
+
+.fun-stuff * {
+  margin-top: 15vh;
+}
+
+.down-container {
+  position: absolute;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.written-stuff {
+  border: 10px solid rgb(192, 57, 43);
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.written-stuff:hover {
+  border: 10px solid rgba(192, 57, 43, 0.7);
+}
+
+.written-stuff * {
+  margin-top: 3vh;
+  margin-left: 10vmin;
 }
