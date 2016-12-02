@@ -6,6 +6,9 @@ html, body, .container {
     background-color: #FFFFFF;
 }
 
+a {
+  text-decoration: none;
+}
 
 .email-button {
   float: right;
