@@ -6,7 +6,7 @@ html, body, .container {
   background-color: #FFFFFF;
 }
 
-.secondary-container {
+#projects {
   background-color: #52ACF7;
   width: 100%;
   height: 100%;

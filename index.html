@@ -25,13 +25,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script src="javascripts/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
     <body>
       <!-- Primary Page Layout
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="container">
           <div class="email-button">
-            <a href="mailto:jenhchuck@gmail.com?Subject=Hi%20Jen" target="_top">
+            <a href="mailto:jenhchuck@gmail.com?Subject=Hi%20Jen!" target="_top">
               <svg viewBox="-15 -10 75 75"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.667in" height="0.5in">
                   <path fill-rule="evenodd"  fill="#52ACF7"
@@ -64,23 +65,19 @@
             </div>
           </div>
           <div class="down-container" onclick="scrollToBottom()">
-            <div class="nav-button projects">
-                <p>Projects</p>
-                <i class="fa fa-hand-o-down" id="pointer-down" aria-hidden="true"></i>
-            </div>
+            <a href="#projects">
+                <div class="nav-button projects">
+                    <p>Projects</p>
+                    <i class="fa fa-hand-o-down" id="pointer-down" aria-hidden="true"></i>
+                </div>
+            </a>
           </div>
       </div>
-      <!-- Secondary Page Layout –––––––––––––––––––––––––––––––––––– -->
-      <div class="secondary-container">
+    <!-- Secondary Page Layout –––––––––––––––––––––––––––––––––––– -->
+        <div id="projects">
 
-      </div>
+        </div>
+        <script src="javascripts/scrollToBottom.js" type="text/javascript" charset="utf-8"></script>
     <!-- End Document  –––––––––––––––––––––––––––––––––––––––––––––– -->
     </body>
-    <script>
-        function scrollToBottom() {
-            document.querySelector('.secondary-container').scrollIntoView({
-              behavior: 'smooth'
-            });
-        }
-    </script>
 </html>
