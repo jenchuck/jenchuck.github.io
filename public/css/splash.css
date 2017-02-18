@@ -6,12 +6,6 @@ html, body, .container {
   background-color: #FFFFFF;
 }
 
-#projects {
-  background-color: #52ACF7;
-  width: 100%;
-  height: 100%;
-}
-
 a {
   text-decoration: none;
   color: black;
